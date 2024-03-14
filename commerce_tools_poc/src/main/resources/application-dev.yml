@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+
+commercetools:
+ version:
+ project_key: liverpool_ct_poc
+ client_id: BgCnRHz2l6rh1hZMpc4hNXvI
+ secret: F2cxBqoIuuYakEq7sO1BSJ9bBeLgMgVa
+ scope: manage_products:liverpool_ct_poc manage_payments:liverpool_ct_poc
+ api_url: https://api.us-central1.gcp.commercetools.com
+ auth_url: https://auth.us-central1.gcp.commercetools.com
+ service_region: en-GB

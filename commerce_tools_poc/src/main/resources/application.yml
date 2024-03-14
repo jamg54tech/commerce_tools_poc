@@ -1,0 +1,6 @@
+spring:
+ application:
+  name: commerce_tools_poc
+ profiles:
+    active:
+    - dev
